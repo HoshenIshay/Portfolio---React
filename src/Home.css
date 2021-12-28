@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.home__bg{
+    background: url(img/HomeIMG.png) ;
+    background-size: cover;
+    background-position: 90% 140%;
+    background-repeat: no-repeat;
+    background-color: #010101;
+    background-size: 780px 600px;
+}
+li.nav__items{
+    font-size: 15px;
+    background-color: #272626;
+    border-radius: 10px;  
+    padding: 15px;
+    margin-left: 2%;
+}
+.home__content{
+    padding: 125px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: gray ;
+}
+h2.home__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: montserrat , sans-serif ;
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: montserrat , sans-serif ;
+}
+h4.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: montserrat , sans-serif ;
+}
+.toggle__menu{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex{
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background-color: #010101;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+    text-align: center;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+.toggle__menu{
+    display: none;
+}
+svg.bi.bi-github{
+    margin-left: 2%;
+}
+@media only screen and (max-width: 768px){
+    .home__bg{
+        background-image: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .navigation.pxy__30{
+        display: none;
+    } 
+    h2.home__text.pz__10{
+        font-size: 40px!important;
+    } 
+    svg.bi.bi-justify.white.pointer {
+        width: 30px;
+        height: 30px;
+    } 
+    .toggle__menu{
+        display: flex;
+    }
+  }
+@media screen and (max-width: 426px){
+    h2.home__text.pz__10 {
+        font-size: 32px!important;
+    }
+    h3.sweet.pz__10 {
+        font-size: 40px !important;
+    }
+    h1.home__text {
+        font-size: 14px;
+    }
+    h4.home__text {
+        font-size: 40px;
+    }
+    .home__content{
+        padding: 15px 0px;
+    }
+
+
+    .navigation.pxy__30{
+        display:inline ;
+        padding: 2px;
+    } 
+    li.nav__items{
+        font-size: 7px;
+        background-color: #191919;
+        border-radius: 10px;  
+        padding: 15px;
+        margin-left: 0.5%;
+    }
+    .logo{
+        display: none;
+    }
+    .toggle__menu{
+        display: none;
+    }
+
+}
