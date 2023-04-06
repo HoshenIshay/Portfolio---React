@@ -1,4 +1,4 @@
-# My Portfolio 🔥🔥🔥🔥
+# My Portfolio 🔥🔥🔥
 Welcome to my portfolio! You can access it here: https://lnkd.in/dJXY-crB
 
 ## Technologies Used
